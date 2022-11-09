@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Formulario de Matricula</title>
+
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/body.css" />
+    <link rel="shortcut icon" href="/img/logokennedy.ico" />
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <section class="form_wrap">
+      <section class="cantact_info">
+        <section class="info_title">
+          <span class="fa fa-user-circle"></span>
+          <h2>INFORMACION<br />JHON F. KENNEDY</h2>
+        </section>
+        <section class="info_items">
+          <p>
+            <span class="fa fa-envelope"></span> info.jhonfkennedy@gmail.com
+          </p>
+          <p><span class="fa fa-mobile"></span> +57(324) 249-3075</p>
+        </section>
+      </section>
+
+      <form action="succes.html" class="form_contact" id="formula">
+        <h2>Datos para Matricula</h2>
+        <div class="user_info">
+          <label for="names">Nombres*</label>
+          <input type="text" id="names" />
+
+          <label for="apellidos">Apellidos*</label>
+          <input type="text" id="apellidos" />
+
+          <label for="password">Contraseña*</label>
+          <input type="password" id="password" />
+
+          <div class="col-md-3 no-padding">
+            <label for="verificacion">Verificación</label>
+            <input type="checkbox" name="verificacion" id="verificacion" />
+          </div>
+
+          <label for="verificacion">Seleccione un color</label>
+
+          <div class="content-select">
+            <select class="zonal_select selectAltura" placeholder="m">
+              <option selected="selected" disabled="disabled">Color</option>
+              <option value="rojo">Rojo</option>
+              <option value="rosa">Rosa</option>
+            </select>
+          </div>
+          <br />
+          <label for="email">Correo electronico *</label>
+          <input type="text" id="email" />
+
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje"></textarea>
+          <!-- <input type="submit" value="Enviar Mensaje" id="enviar" /> -->
+          <input type="submit" value="Enviar Mensaje" id="enviar" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
